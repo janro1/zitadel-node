@@ -1,10 +1,11 @@
 {
-  "name": "@zitadel/node",
+  "name": "@janro1/zitadel-node",
   "version": "0.0.0-development",
   "description": "Library for API access to ZITADEL. Provides compiled gRPC service clients and helpers for applications and service accounts.",
   "type": "module",
   "publishConfig": {
-    "access": "public"
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com"
   },
   "scripts": {
     "dev": "tsc -w",
